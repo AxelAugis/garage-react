@@ -4,7 +4,7 @@
 
 ### Description
 
-Garage est une application web permettant de gérer un garage de véhicules. L'application permet d'ajouter des véhicules, de les supprimer, de les modifier et de consulter les détails d'un véhicule.
+Garage est une application web permettant de gérer un garage de véhicules. L'application permet d'ajouter des véhicules, de les supprimer et de consulter les détails d'un véhicule.
 
 ### Fonctionnement 
 
