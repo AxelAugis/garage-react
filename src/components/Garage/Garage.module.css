@@ -1,0 +1,117 @@
+.wrapper {
+    width: 100%;
+    max-width: 100%;
+    min-height: 100vh;
+    padding: 1em 0 0 0;
+}
+
+.wrapper h1 {
+    margin-top: 0;
+}
+
+/* Form style */
+
+.garageForm {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    width: 50%;
+    border: 1px solid #ddd;
+    padding: 1em;
+    border-radius: 8px;
+}
+
+.garageForm section {
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+.garageForm div {
+display: flex;
+flex-direction: column;
+gap: 0.25em;
+width: fit-content;
+}
+
+.garageForm select {
+padding: 0.5em 2em 0.5em 0.5em;
+border-radius: 8px;
+width: 100%;
+}
+
+.garageForm input {
+padding: 0.5em;
+border-radius: 8px;
+border-color: transparent;
+}
+  
+.garageForm button {
+padding: 0.5em 2em;
+border-radius: 8px;
+margin-left: auto;
+color: white;
+cursor: pointer;
+width: fit-content;
+background-color: #1a1a1a;
+transition: 0.25s;
+}
+
+.garageForm button:hover {
+background-color: #fff;
+color: #1a1a1a;
+transition: 0.25s;
+}
+
+/* List style */
+
+.noVehiculeWrapper {
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.noVehiculeText {
+    font-size: 2em;
+    color: #fff;
+}
+
+.vehiculeList {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1em;
+    margin-bottom: 1em;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    padding-inline-start: 0;
+}
+
+.vehiculeListItem {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    padding: 1em;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    height: fit-content;
+}
+
+.vehiculeListItem button:hover {
+    background-color: #fff;
+    color: #1a1a1a;
+    transition: 0.25s;
+}
+
+
+/* handle Errors */
+
+.errorContent {
+    color: red;
+    font-size: 0.8em;
+    display: none;
+}
+
+
+
+  
