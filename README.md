@@ -14,7 +14,7 @@ L'application est composée de deux composants principaux :
 
 - `Vehicule` : Composant permettant d'afficher les détails d'un véhicule.
 
-Il existe plusieurs composant dérivés de Vehicule :
+Il existe plusieurs composants dérivés de Vehicule :
 
 - `Voiture` : Composant permettant d'afficher les détails d'une voiture.
 - `Moto` : Composant permettant d'afficher les détails d'une moto.
