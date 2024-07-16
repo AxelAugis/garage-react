@@ -43,7 +43,7 @@ Après l'ajout de véhicules, la liste des véhicules est affichée dans le gara
 
 ### Visionnage des détails d'un véhicule
 
-En cliquant sur un véhicule, les détails de celui-ci sont affichés.
+En cliquant sur un véhicule, les détails de celui-ci sont affichés. Il peut alors choisir de supprimer le véhicule ou de le klaxonner.
 
 <img src="src/assets/images/details.png" width="500">
 
@@ -53,3 +53,5 @@ En cliquant sur un véhicule, les détails de celui-ci sont affichés.
 Lorsque l'utilisateur clique sur le bouton "Klaxonner", une alerte est affichée.
 
 <img src="src/assets/images/honk-alert.png" width="500">
+
+#### Suppression d'un véhicule

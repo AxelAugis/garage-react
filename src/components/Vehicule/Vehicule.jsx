@@ -38,7 +38,10 @@ class Vehicule extends React.Component {
             <p>Année de fabrication: {anneeDeFabrication}</p>
             <p>Couleur: {couleur}</p>
             <p>Son du klaxon : {son}</p>
-            <button onClick={this.klaxonner}>Klaxonner</button>
+            <div style={{ display: 'flex', gap:'4px' }}>
+              <button onClick={this.klaxonner}>Klaxonner</button>
+              <button onClick={this.props.removeVehicle}>Supprimer</button>
+            </div>
           </div>
         )}
       </div>

@@ -31,7 +31,14 @@ class Garage extends React.Component {
         }[type];
 
         this.setState(prevState => ({
-            vehicules: [...prevState.vehicules, <Vehicule key={prevState.vehicules.length} type={type} {...props} />],
+            vehicules: [...prevState.vehicules, <Vehicule key={prevState.vehicules.length} removeVehicle={() => this.removeVehicle(prevState.vehicules.length)} type={type} {...props} />],
+        }));
+    }
+
+    // Remove a vehicle from the list of vehicles
+    removeVehicle = (index) => {
+        this.setState(prevState => ({
+            vehicules: prevState.vehicules.filter((_, i) => i !== index)
         }));
     }
 
@@ -51,7 +58,6 @@ class Garage extends React.Component {
         const style = event.target.style;
 
         const stringRegex = /^[A-Za-z]+$/;
-
 
         this.setState({ [name]: value });
         // Check if the year is valid
