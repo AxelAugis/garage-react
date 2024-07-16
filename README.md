@@ -54,4 +54,3 @@ Lorsque l'utilisateur clique sur le bouton "Klaxonner", une alerte est affichée
 
 <img src="src/assets/images/honk-alert.png" width="500">
 
-#### Suppression d'un véhicule
