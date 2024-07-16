@@ -14,4 +14,4 @@
 
 ### Alerte lors d'un klaxon
 
-<img src="src/assets/images/honk-alert.png" width="500"># garage-react
+<img src="src/assets/images/honk-alert.png" width="500">
